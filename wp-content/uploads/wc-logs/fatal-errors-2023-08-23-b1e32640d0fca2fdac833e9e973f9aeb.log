@@ -1,0 +1,12 @@
+2023-08-23T02:16:06+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Payments\Integrations\PayPal.php on line 101
+
+2023-08-23T03:41:20+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\WORDPRESS\wordpress\wp-includes\functions.php on line 6691
+
+2023-08-23T03:41:22+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-webhooks.php on line 377
+
+2023-08-23T04:20:39+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Utils\BlockTemplateUtils.php on line 734
+
+2023-08-23T04:20:39+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\woocommerce\src\Internal\Admin\Notes\InstallJPAndWCSPlugins.php on line 12
+
+2023-08-23T04:20:44+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\themehunk-customizer\big-store\customizer\customizer.php on line 60
+

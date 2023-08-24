@@ -1,0 +1,10 @@
+2023-08-22T04:16:28+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\elementor\includes\settings\settings-page.php on line 4
+
+2023-08-22T04:16:32+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\WORDPRESS\wordpress\wp-includes\functions.php on line 4570
+
+2023-08-22T04:16:42+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\WORDPRESS\wordpress\wp-admin\includes\privacy-tools.php on line 969
+
+2023-08-22T04:28:29+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\WORDPRESS\wordpress\wp-admin\includes\class-wp-filesystem-direct.php on line 82
+
+2023-08-22T05:08:49+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\WORDPRESS\wordpress\wp-admin\includes\class-wp-filesystem-direct.php on line 82
+

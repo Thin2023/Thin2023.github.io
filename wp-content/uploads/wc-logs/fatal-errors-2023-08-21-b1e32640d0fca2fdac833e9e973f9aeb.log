@@ -1,0 +1,70 @@
+2023-08-21T02:54:52+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\WORDPRESS\wordpress\wp-admin\includes\class-wp-filesystem-direct.php on line 82
+
+2023-08-21T02:55:35+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\WORDPRESS\wordpress\wp-admin\includes\class-wp-filesystem-direct.php on line 82
+
+2023-08-21T03:06:51+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\WORDPRESS\wordpress\wp-admin\includes\class-wp-filesystem-direct.php on line 66
+
+2023-08-21T03:07:36+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\WORDPRESS\wordpress\wp-admin\includes\class-wp-filesystem-direct.php on line 82
+
+2023-08-21T03:11:01+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\WORDPRESS\wordpress\wp-admin\includes\class-wp-filesystem-direct.php on line 66
+
+2023-08-21T03:49:05+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\WORDPRESS\wordpress\wp-admin\includes\class-wp-filesystem-direct.php on line 82
+
+2023-08-21T03:49:46+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\WORDPRESS\wordpress\wp-includes\Requests\src\Transport\Curl.php on line 534
+
+2023-08-21T04:59:05+00:00 CRITICAL Uncaught Error: Call to undefined function Elementor\Modules\Ai\Connect\exif_imagetype() in C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\elementor\modules\ai\connect\ai.php:81
+Stack trace:
+#0 C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\elementor\modules\ai\connect\ai.php(102): Elementor\Modules\Ai\Connect\Ai->get_upload_request_body(Array, 'C:\\xampp\\htdocs...', '9WTrER5pyFq0h3n...', 'image')
+#1 C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\elementor\modules\ai\connect\ai.php(278): Elementor\Modules\Ai\Connect\Ai->ai_request('POST', 'image/image-to-...', Array, 'C:\\xampp\\htdocs...', 'image')
+#2 C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\elementor\modules\ai\module.php(363): Elementor\Modules\Ai\Connect\Ai->get_image_to_image(Array, Array)
+#3 [internal function]: Elementor\Modules\Ai\Module->ajax_ai_get_image_to_image(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#4 C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\elementor\core\common\modules\ajax\module.php(175): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(310): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#6 C:\xampp\htdocs\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\WORDPRESS\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\WORDPRESS\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#9 {main}
+  thrown in C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\elementor\modules\ai\connect\ai.php on line 81
+
+2023-08-21T04:59:16+00:00 CRITICAL Uncaught Error: Call to undefined function Elementor\Modules\Ai\Connect\exif_imagetype() in C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\elementor\modules\ai\connect\ai.php:81
+Stack trace:
+#0 C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\elementor\modules\ai\connect\ai.php(102): Elementor\Modules\Ai\Connect\Ai->get_upload_request_body(Array, 'C:\\xampp\\htdocs...', 'iiQaMcNCb7Nfj7r...', 'image')
+#1 C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\elementor\modules\ai\connect\ai.php(278): Elementor\Modules\Ai\Connect\Ai->ai_request('POST', 'image/image-to-...', Array, 'C:\\xampp\\htdocs...', 'image')
+#2 C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\elementor\modules\ai\module.php(363): Elementor\Modules\Ai\Connect\Ai->get_image_to_image(Array, Array)
+#3 [internal function]: Elementor\Modules\Ai\Module->ajax_ai_get_image_to_image(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#4 C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\elementor\core\common\modules\ajax\module.php(175): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(310): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#6 C:\xampp\htdocs\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\WORDPRESS\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\WORDPRESS\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#9 {main}
+  thrown in C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\elementor\modules\ai\connect\ai.php on line 81
+
+2023-08-21T04:59:31+00:00 CRITICAL Uncaught Error: Call to undefined function Elementor\Modules\Ai\Connect\exif_imagetype() in C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\elementor\modules\ai\connect\ai.php:81
+Stack trace:
+#0 C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\elementor\modules\ai\connect\ai.php(102): Elementor\Modules\Ai\Connect\Ai->get_upload_request_body(Array, 'C:\\xampp\\htdocs...', 'N4Nm94UX0kZ5f2g...', 'image')
+#1 C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\elementor\modules\ai\connect\ai.php(278): Elementor\Modules\Ai\Connect\Ai->ai_request('POST', 'image/image-to-...', Array, 'C:\\xampp\\htdocs...', 'image')
+#2 C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\elementor\modules\ai\module.php(363): Elementor\Modules\Ai\Connect\Ai->get_image_to_image(Array, Array)
+#3 [internal function]: Elementor\Modules\Ai\Module->ajax_ai_get_image_to_image(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#4 C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\elementor\core\common\modules\ajax\module.php(175): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(310): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#6 C:\xampp\htdocs\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\WORDPRESS\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\WORDPRESS\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#9 {main}
+  thrown in C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\elementor\modules\ai\connect\ai.php on line 81
+
+2023-08-21T04:59:42+00:00 CRITICAL Uncaught Error: Call to undefined function Elementor\Modules\Ai\Connect\exif_imagetype() in C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\elementor\modules\ai\connect\ai.php:81
+Stack trace:
+#0 C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\elementor\modules\ai\connect\ai.php(102): Elementor\Modules\Ai\Connect\Ai->get_upload_request_body(Array, 'C:\\xampp\\htdocs...', 'RWZ0yl2C92brxJE...', 'image')
+#1 C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\elementor\modules\ai\connect\ai.php(278): Elementor\Modules\Ai\Connect\Ai->ai_request('POST', 'image/image-to-...', Array, 'C:\\xampp\\htdocs...', 'image')
+#2 C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\elementor\modules\ai\module.php(363): Elementor\Modules\Ai\Connect\Ai->get_image_to_image(Array, Array)
+#3 [internal function]: Elementor\Modules\Ai\Module->ajax_ai_get_image_to_image(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#4 C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\elementor\core\common\modules\ajax\module.php(175): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(310): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#6 C:\xampp\htdocs\WORDPRESS\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\WORDPRESS\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\WORDPRESS\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#9 {main}
+  thrown in C:\xampp\htdocs\WORDPRESS\wordpress\wp-content\plugins\elementor\modules\ai\connect\ai.php on line 81
+
